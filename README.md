@@ -23,3 +23,17 @@ Day 2: Promise Chain
 -first(), second(), and third() each return one of these promises.
 -The promises are chained using .then(), so each starts only after the previous one finishes.
 -console.time () and console.timeEnd() measure the total time taken for the entire chain.
+
+**Day 4: Rewrite with Async/Await** 
+
+**Sample Output**
+-Fetching data...
+(wait 2 seconds)
+-Data received!Task completed.
+
+**Explanation**
+The callback version requires passing a function that runs after the asynchronous operation completes.
+In the rewritten version:
+fetchData() returns a Promise.
+await fetchData() pauses execution inside the async function until the promise resolves.
+The code reads from top to bottom, making it easier to understand and maintain compared to nested callbacks.
