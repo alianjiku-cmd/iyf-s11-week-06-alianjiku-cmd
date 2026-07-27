@@ -28,6 +28,28 @@ Explanation
 .If any promise fails, the .catch() block executes.
 
 
+**Task 11.4: Async/Await **
+
+All Users:
+ID: 1
+Name: User 1
+Email: user1@example.com
+----------------------
+ID: 2
+Name: User 2
+Email: user2@example.com
+----------------------
+ID: 3
+Name: User 3
+Email: user3@example.com
+----------------------
+Explanation
+getUserData(id) returns a promise that resolves with a user object.
+Promise.all([...]) starts all three requests at the same time.
+It waits until all promises resolve.
+The users array contains the results in the same order as the promises were passed (user1, user2, user3).
+If any promise fails, the .catch() block executes.
+
 
 **Daily Challenges**
  *Day 1: Delayed Promise task.*
@@ -69,3 +91,5 @@ In the rewritten version:
 fetchData() returns a Promise.
 await fetchData() pauses execution inside the async function until the promise resolves.
 The code reads from top to bottom, making it easier to understand and maintain compared to nested callbacks.
+
+
