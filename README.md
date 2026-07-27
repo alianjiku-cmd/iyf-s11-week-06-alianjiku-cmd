@@ -30,27 +30,20 @@ Explanation
 
 **Task 11.4: Async/Await **
 
-All Users:
-ID: 1
-Name: User 1
-Email: user1@example.com
-----------------------
-ID: 2
-Name: User 2
-Email: user2@example.com
-----------------------
-ID: 3
-Name: User 3
-Email: user3@example.com
-----------------------
-Explanation
-getUserData(id) returns a promise that resolves with a user object.
-Promise.all([...]) starts all three requests at the same time.
-It waits until all promises resolve.
-The users array contains the results in the same order as the promises were passed (user1, user2, user3).
-If any promise fails, the .catch() block executes.
 
+User: { id: 1, name: 'User 1' }
 
+Posts: [
+  { id: 101, title: 'My First Post' },
+  { id: 102, title: 'Learning Async/Await' }
+]
+
+Comments: [
+  { id: 1, text: 'Great post!' },
+  { id: 2, text: 'Very helpful!' }
+  
+  ]
+ NB: This version replaces nested callbacks with async/await, making the code easier to read and maintain while using try...catch for error handling.
 **Daily Challenges**
  *Day 1: Delayed Promise task.*
 It uses setTimeout wrapped in a Promise so you can await it.                                                                                                                        Task 11.1: Understanding Async 
