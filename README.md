@@ -45,8 +45,59 @@ Comments: [
   ]
  NB: This version replaces nested callbacks with async/await, making the code easier to read and maintain while using try...catch for error handling.
 **Daily Challenges**
+
+Task 12.2: Display API Data in DOM
+Expected Result
+
+When you open the page in a browser:
+
+"Loading..." appears while data is being fetched.
+User data is retrieved from JSONPlaceholder.
+Each user is displayed in a styled card showing:
+Name
+Email
+Company
+City
+If the request fails, an error message is displayed instead of the user list.
+
+
+ Task 12.3: POST Requests
+Task 12.4: Search & FilterFeatures Included
+✅ Fetch users from JSONPlaceholder
+✅ Live search by name or email
+✅ Sort users by Name (A–Z) or Name (Z–A)
+✅ Filter users by city using a dropdown
+✅ Display users in responsive cards
+
+ 
  *Day 1: Delayed Promise task.*
-It uses setTimeout wrapped in a Promise so you can await it.                                                                                                                        Task 11.1: Understanding Async 
+
+It uses setTimeout wrapped in a Promise so you can await it.                                                                                                                        
+Lesson 12 Tasks
+Task 12.1: Fetch API Basics
+Single User:
+{ id: 1, name: 'Leanne Graham', ... }
+
+All Users:
+[
+  { id: 1, name: 'Leanne Graham', ... },
+  { id: 2, name: 'Ervin Howell', ... },
+  ...
+]
+
+Posts for User 1:
+[
+  { userId: 1, id: 1, title: '...', body: '...' },
+  { userId: 1, id: 2, title: '...', body: '...' },
+  ...
+]
+
+**This solution demonstrates:**
+
+Fetching a single user.
+Fetching all users.
+Fetching posts for User 1.
+Using async/await, fetch(), error handling with try...catch, and response.json().
 
 Day 2: Promise Chain
  
@@ -72,6 +123,7 @@ Day 2: Promise Chain
 . Network Failures — caught in the catch block, returning the default user.
 
 **Day 4: Rewrite with Async/Await** 
+
 
 **Sample Output**
 -Fetching data...
