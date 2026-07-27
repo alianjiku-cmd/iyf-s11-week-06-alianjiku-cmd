@@ -62,7 +62,9 @@ If the request fails, an error message is displayed instead of the user list.
 
 
  Task 12.3: POST Requests
+
 Task 12.4: Search & FilterFeatures Included
+
 ✅ Fetch users from JSONPlaceholder
 ✅ Live search by name or email
 ✅ Sort users by Name (A–Z) or Name (Z–A)
