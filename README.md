@@ -24,6 +24,14 @@ Day 2: Promise Chain
 -The promises are chained using .then(), so each starts only after the previous one finishes.
 -console.time () and console.timeEnd() measure the total time taken for the entire chain.
 
+**Day 3: Error Handling**
+
+**How it works:**
+. DEFAULT_USER — a fallback object for missing users.
+. 404 Handling — if the API returns status === 404, we return the default user instead of throwing.
+. Other Errors — if the status is not OK (e.g., 500), we throw an error and catch it.
+. Network Failures — caught in the catch block, returning the default user.
+
 **Day 4: Rewrite with Async/Await** 
 
 **Sample Output**
