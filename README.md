@@ -4,6 +4,30 @@ ynchronous programming was devised to accommodate for the lag between when a fun
 
 Lesson 11 Tasks
 
+**Task 11.3: Promise Chaining **
+
+Expected Output
+All Users:
+ID: 1
+Name: User 1
+Email: user1@example.com
+----------------------
+ID: 2
+Name: User 2
+Email: user2@example.com
+----------------------
+ID: 3
+Name: User 3
+Email: user3@example.com
+----------------------
+Explanation
+.getUserData(id) returns a promise that resolves with a user object.
+.Promise.all([...]) starts all three requests at the same time.
+.It waits until all promises resolve.
+.The users array contains the results in the same order as the promises were passed (user1, user2, user3).
+.If any promise fails, the .catch() block executes.
+
+
 
 **Daily Challenges**
  *Day 1: Delayed Promise task.*
