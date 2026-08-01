@@ -1,0 +1,154 @@
+# Lesson 12: Working with APIs
+
+## Student Information
+
+- **Student:** Alice Wanjiku
+- **Course:** JavaScript - Week 6
+- **Lesson:** Lesson 12 - Working with APIs
+
+---
+
+## Overview
+
+This lesson focuses on using JavaScript to interact with web APIs. I learned how to retrieve, create, and manage data using the Fetch API and asynchronous programming techniques such as Promises and async/await.
+
+The exercises demonstrate how modern web applications communicate with servers while handling loading states and errors gracefully.
+
+---
+
+## Topics Covered
+
+- Fetch API
+- GET Requests
+- POST Requests
+- Async/Await
+- Error Handling
+- Loading States
+- JSON Data
+- Search and Filter
+
+---
+
+## Files Included
+
+### fetch.js
+
+This file demonstrates how to:
+
+- Fetch data from a public API
+- Display user information
+- Parse JSON data
+- Use async/await with the Fetch API
+
+---
+
+### error-handling.js
+
+This file demonstrates how to:
+
+- Handle network errors
+- Check API response status
+- Display meaningful error messages
+- Use try...catch with asynchronous code
+
+---
+
+### loading-state.js
+
+This file demonstrates how to:
+
+- Show a loading message while data is being fetched
+- Hide the loading message after the request completes
+- Display the fetched data
+- Improve the user experience during asynchronous operations
+
+---
+
+### post-request.js *(Optional Enhancement)*
+
+This file demonstrates how to:
+
+- Send data to an API using a POST request
+- Create a new resource
+- Convert JavaScript objects to JSON
+- Display the API response
+
+---
+
+### search-filter.js *(Optional Enhancement)*
+
+This file demonstrates how to:
+
+- Search users by name
+- Search users by email
+- Sort users alphabetically
+- Filter users by city
+
+---
+
+## Learning Outcomes
+
+After completing this lesson, I can:
+
+- Use the Fetch API to retrieve data from an API.
+- Work with JSON data.
+- Use async/await with API requests.
+- Handle errors using try...catch.
+- Display loading states while waiting for data.
+- Send POST requests to create new resources.
+- Build search and filtering functionality for API data.
+
+---
+
+## APIs Used
+
+This project uses the free JSONPlaceholder API for practice:
+
+- https://jsonplaceholder.typicode.com/users
+- https://jsonplaceholder.typicode.com/posts
+
+The Weather Dashboard project uses the OpenWeatherMap API to display real-time weather information.
+
+---
+
+## How to Run
+
+### Using Node.js
+
+Open a terminal inside the `lesson12` folder and run:
+
+```bash
+node fetch.js
+node error-handling.js
+node loading-state.js
+```
+
+If you created the optional exercises, you can also run:
+
+```bash
+node post-request.js
+node search-filter.js
+```
+
+### Using a Browser
+
+If the JavaScript file is linked to an HTML page:
+
+1. Open the project in Visual Studio Code.
+2. Start **Live Server**.
+3. Open the browser.
+4. Open Developer Tools (**F12**) to view the Console output.
+
+---
+
+## Reflection
+
+This lesson helped me understand how websites communicate with APIs to retrieve and send data. I learned how to use the Fetch API, work with asynchronous JavaScript, handle errors, display loading states, and create interactive applications that respond to user input.
+
+---
+
+## Author
+
+**Alice Wanjiku**
+
+Week 6 – Asynchronous JavaScript
