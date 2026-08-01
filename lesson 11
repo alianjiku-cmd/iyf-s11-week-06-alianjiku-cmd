@@ -1,0 +1,111 @@
+# Lesson 11: Callbacks, Promises & Async/Await
+
+## Student Information
+
+- **Student:** Alice Wanjiku
+- **Course:** JavaScript - Week 6
+- **Lesson:** Lesson 11 - Asynchronous JavaScript
+
+---
+
+## Overview
+
+This lesson introduces asynchronous programming in JavaScript. The exercises demonstrate how JavaScript handles tasks that take time to complete without stopping the rest of the program from running.
+
+The lesson covers:
+
+- Synchronous vs Asynchronous JavaScript
+- Callbacks
+- Callback Hell
+- Promises
+- Promise Chaining
+- Async/Await
+- Error Handling with `try...catch`
+- Running multiple asynchronous tasks with `Promise.all()`
+
+---
+
+## Files Included
+
+### callbacks.js
+
+This file demonstrates:
+
+- Synchronous execution
+- Asynchronous execution using `setTimeout()`
+- Callback functions
+- Loading user data using callbacks
+
+---
+
+### promise-chaining.js
+
+This file demonstrates:
+
+- Creating Promises
+- Resolving and rejecting Promises
+- Promise chaining using `.then()`
+- Error handling using `.catch()`
+- Using `Promise.all()`
+- Using `Promise.race()`
+
+---
+
+### async-await.js
+
+This file demonstrates:
+
+- Using `async` and `await`
+- Converting Promise chains into cleaner code
+- Error handling with `try...catch`
+- Running asynchronous tasks sequentially and in parallel
+
+---
+
+## Learning Outcomes
+
+After completing this lesson, I am able to:
+
+- Explain the difference between synchronous and asynchronous JavaScript.
+- Create and use callback functions.
+- Understand why Callback Hell should be avoided.
+- Create and consume Promises.
+- Chain multiple Promises together.
+- Use `async` and `await` to simplify asynchronous code.
+- Handle errors in asynchronous applications.
+- Execute multiple asynchronous operations efficiently.
+
+---
+
+## How to Run
+
+### Using Node.js
+
+Open a terminal inside the `lesson11` folder and run:
+
+```bash
+node callbacks.js
+node promise-chaining.js
+node async-await.js
+```
+
+### Using Visual Studio Code
+
+1. Open the project folder.
+2. Open the JavaScript file you want to test.
+3. Run it using Node.js or the VS Code terminal.
+4. View the output in the terminal or browser console.
+
+---
+
+## Reflection
+
+This lesson helped me understand how JavaScript performs asynchronous tasks using callbacks, Promises, and async/await. I also learned how to write cleaner code, avoid callback hell, and handle errors while working with asynchronous operations.
+
+---
+
+## Author
+
+**Alice Wanjiku**
+
+Week 6 – Asynchronous JavaScript
