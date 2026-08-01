@@ -1,3 +1,154 @@
 
 
 
+ Week 6: Asynchronous JavaScript
+
+## Student Information
+
+- **Student Name:** Alice Wanjiku
+- **Repository:** iyf-s11-week-06
+- **Course:** JavaScript
+- **Week:** 6
+- **Topic:** Asynchronous JavaScript
+
+---
+
+## Project Overview
+
+This repository contains my Week 6 JavaScript assignments on asynchronous programming. During this week, I learned how JavaScript handles asynchronous operations using callbacks, Promises, async/await, and APIs.
+
+The repository also includes a Weather Dashboard project that retrieves live weather information using the OpenWeatherMap API.
+
+---
+
+## Repository Structure
+
+```text
+iyf-s11-week-06
+│
+├── weather-dashboard
+├── lesson11
+├── lesson12
+├── .gitignore
+└── README.md
+```
+
+---
+
+## Lesson 11
+
+Topics covered:
+
+- Synchronous vs Asynchronous JavaScript
+- Callback Functions
+- Callback Hell
+- Promises
+- Promise Chaining
+- Promise.all()
+- Promise.race()
+- Async/Await
+- Error Handling
+
+Files:
+
+- callbacks.js
+- promise-chaining.js
+- async-await.js
+
+---
+
+## Lesson 12
+
+Topics covered:
+
+- Fetch API
+- GET Requests
+- POST Requests
+- Error Handling
+- Loading States
+- Search and Filter
+- Working with JSON
+
+Files:
+
+- fetch.js
+- error-handling.js
+- loading-state.js
+- post-request.js
+- search-filter.js
+
+---
+
+## Weather Dashboard
+
+The Weather Dashboard allows users to:
+
+- Search for any city worldwide.
+- View the current temperature.
+- View humidity.
+- View wind speed.
+- View weather description.
+- Display the weather icon.
+- Handle invalid city names gracefully.
+
+Technologies used:
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Fetch API
+- Async/Await
+- OpenWeatherMap API
+
+---
+
+## Learning Outcomes
+
+By completing this project, I learned how to:
+
+- Write asynchronous JavaScript.
+- Use callback functions.
+- Create and consume Promises.
+- Write cleaner code using async/await.
+- Fetch data from APIs.
+- Handle loading states and errors.
+- Build interactive web applications.
+
+---
+
+## How to Run
+
+### Weather Dashboard
+
+1. Open the `weather-dashboard` folder.
+2. Open `index.html` using Live Server.
+3. Enter a city name.
+4. Click **Search**.
+
+### Lesson 11
+
+Run:
+
+```bash
+node callbacks.js
+node promise-chaining.js
+node async-await.js
+```
+
+### Lesson 12
+
+Run:
+
+```bash
+node fetch.js
+node error-handling.js
+node loading-state.js
+```
+
+---
+
+## Author
+
+**Alice Wanjiku**
+
+Week 6 - Asynchronous JavaScript
