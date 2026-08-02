@@ -108,4 +108,147 @@ This lesson helped me understand how JavaScript performs asynchronous tasks usin
 
 **Alice Wanjiku**
 
+**callbacks.js**
 Week 6 – Asynchronous JavaScript
+// ==========================================
+// LESSON 11 - CALLBACKS
+// Week 6: Asynchronous JavaScript
+// Student: Alice Wanjiku
+// ==========================================
+
+console.log("========== Exercise 1 ==========");
+
+// Synchronous Example
+console.log("1 - Start");
+console.log("2 - Middle");
+console.log("3 - End");
+
+// ------------------------------------------
+
+console.log("\n========== Asynchronous Example ==========");
+
+console.log("1 - Start");
+
+setTimeout(() => {
+    console.log("2 - This is delayed");
+}, 2000);
+
+console.log("3 - End");
+
+// ------------------------------------------
+
+console.log("\n========== Predict the Output ==========");
+
+console.log("A");
+
+setTimeout(() => {
+    console.log("B");
+}, 0);
+
+console.log("C");
+
+setTimeout(() => {
+    console.log("D");
+}, 100);
+
+console.log("E");
+
+
+console.log("\n========== Callback Example ==========");
+
+// Simulates fetching data from a database
+function fetchData(callback) {
+
+    setTimeout(() => {
+
+        const data = {
+            name: "Alice Wanjiku",
+            age: 22,
+            country: "Kenya"        };
+
+        callback(data);
+
+    }, 1000);
+
+}
+
+// Call the function
+fetchData(function(data) {
+    console.log("Data received:", data);
+});
+
+// ------------------------------------------
+
+console.log("\n========== Build Your Own Callback ==========");
+
+// Simulates loading a student's information
+function loadUser(userId, callback) {
+
+    console.log("Loading student data...");
+
+    setTimeout(() => {
+
+        const user = {
+            id: userId,
+            name: "Alice Wanjiku",
+            email: "student@example.com",
+            country: "Kenya"
+        };
+
+        callback(user);
+
+    }, 1500);
+
+}
+
+// Execute the callback
+loadUser(1, function(user) {
+
+    console.log("Student Loaded Successfully!");
+    console.log(user);
+
+});
+
+// ------------------------------------------
+
+console.log("\n========== Multiple Callback Example ==========");
+
+// Simulates loading product information
+function loadProduct(productId, callback) {
+
+    console.log("Loading product information...");
+
+    setTimeout(() => {
+
+        const product = {
+            id: productId,
+            name: "Laptop",
+            price: 850,
+            currency: "USD"
+        };
+
+        callback(product);
+
+    }, 1000);
+
+}
+
+// Execute callback
+loadProduct(101, function(product) {
+
+    console.log("Product Loaded Successfully!");
+    console.log(product);
+
+});
+
+// ------------------------------------------
+
+console.log("\n========== Lesson Summary ==========");
+
+console.log("✔ Synchronous code runs one line at a time.");
+console.log("✔ Asynchronous code can wait without blocking other code.");
+console.log("✔ Callbacks allow a function to run after another function finishes.");
+console.log("✔ setTimeout() is commonly used to simulate delayed operations.");
+
+console.log("\n🎉 Lesson 11 - Callbacks Complete!");
+
