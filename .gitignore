@@ -1,0 +1,33 @@
+# ==========================================
+# Week 6 - Asynchronous JavaScript
+# Student: Alice Wanjiku
+# ==========================================
+
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# VS Code settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package lock file (optional)
+# Remove the # below if your instructor asks you NOT to include package-lock.json
+# package-lock.json
